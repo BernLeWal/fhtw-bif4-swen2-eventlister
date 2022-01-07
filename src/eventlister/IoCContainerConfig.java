@@ -9,4 +9,6 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("eventlister.communicationHandling")
 @ComponentScan("eventlister.filterHandling")
 public class IoCContainerConfig {
+    public IoCContainerConfig() {
+    }
 }

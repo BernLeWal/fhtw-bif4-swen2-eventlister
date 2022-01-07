@@ -29,6 +29,9 @@ public class MainViewModel implements Initializable {
     @Autowired
     private ArgumentHandler _argumentHandler;
 
+    public MainViewModel() {
+    }
+
     public StringProperty filterTextProperty() {
         return this._filterText;
     }

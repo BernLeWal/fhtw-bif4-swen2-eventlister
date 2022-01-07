@@ -20,6 +20,9 @@ public class Controller implements Initializable {
     public TextField FilterTextField;
     public ListView EventsListView;
 
+    public Controller() {
+    }
+
     // Action
     public void filter(ActionEvent actionEvent) {
         _mainViewModel.filter();
